@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color:#00ffee7d ;
+   display: flex;;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1 );
+
+}
+.container .leftside{
+    position: relative;
+    background-color: #003147;
+    padding: 50px;
+    height:100%;
+    
+}
+.profiletext{
+
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgba(255,255,255,0.1 );
+
+
+}
+
+.profiletext .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+}
+
+
+
+.container .rightside{
+   
+    background-color: #fff;
+    padding: 40px;
+    height: 10%;
+}
+.imgbox1{
+
+    height: 150px;
+    width: 150px;
+}
+.profiletext .imgbox img{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+
+}
+.profiletext h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+#role{
+    color: #fff;
+    padding: 10px;
+    margin: 8px 1px;
+    font-weight: 550;
+    margin-left: 140px;
+    letter-spacing: 5px;
+    
+}
+.contactinfo{
+    padding: 40px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 6000;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  
+}
+.contactinfo ul{
+    position: relative;
+   
+}
+li a{
+    text-decoration: none;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 1px;
+    cursor: pointer;
+   
+}
+.contactinfo ul .li1{
+    display: flex;
+}
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 13px;
+    color: rgb(95, 217, 221);
+
+}
+.contactinfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px ;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 25%;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 1 1 50px;
+   
+
+}
+
+
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactinfo.education li{
+    margin-bottom: 15px;
+}
+.contactinfo.education  h4{
+    color: #03a9f4;
+    font-weight: 500;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    
+    
+   
+}
+.contactinfo.education  h5{
+
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+
+
+}
+
+.contactinfo.skills{
+    color: #fff;
+    list-style-type: circle;
+
+
+}
+.contactinfo.skills h5{
+    color: #dad5d5;
+    padding: 1px;
+    margin-bottom: 25px;
+    
+    font-weight: lighter;
+
+}
+.contactinfo.skills ul li{
+   
+    list-style-type: disc;
+   
+    margin: 15px 10px;
+  
+
+}
+.contactinfo.skills ul li h4{
+    
+ margin: 10px 5px;
+ margin-bottom:10px;
+ font-weight: 600;
+ font-size: 14px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+
+}
+.contactinfo.skills ul .sublist{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+
+    list-style-type: circle;
+    margin: 10px 28px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.about{
+    margin-bottom: 50px;
+
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  
+}
+#profile_para{
+
+    color: #333;
+    text-align: justify ;
+    letter-spacing:0.5px;
+    line-height: 1.5em;
+    padding: 5px;
+    font-size: larger;
+}
+
+.about .personalinfo li p{
+
+    color: #333;
+    font-weight: lighter;
+    text-align: justify ;
+    line-height: 1.5em;
+    padding: 2px;
+    font-size: larger;
+   
+
+}
+
+
+.about .personalinfo li{
+margin: 10px 100px;
+margin-bottom:10px;
+font-weight: 600;
+font-size: 14px;
+}
+
+.percent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;   
+}
+
+.box h4{
+   padding: 5px;
+   margin-top: 20px;
+}
+
+
+
+
